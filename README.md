@@ -1,7 +1,5 @@
 Agni Netra
 
-
-
 ## Synopsis
 
 Our project `Agni-Netra` is driven by the urgent need to address the ecological, environmental, and economic impacts of forest fires, particularly in Nepal where these incidents often wreak havoc with devastating consequences. Despite commendable efforts in forest restoration, the months of March and April pose significant threats to our progress due to the rampant occurrence of uncontrolled fires. Shockingly, in 2021 alone, Nepal recorded a staggering 6279 forest fires, as reported by the Nepal Economic Forum.
@@ -15,14 +13,10 @@ To combat this pressing challenge, we propose the development of a portable fore
 
 By deploying this innovative solution, we aim to significantly enhance our capacity to detect and respond to forest fires, ultimately safeguarding our precious natural resources and communities from the devastating impacts of these destructive events.
 
-
-
-
-## AI Tools Details 
+## AI Tools Details
 
 - finalmodel.pt pytorch model fine tuned with yolov8n architecture.
-- Uses OpenCV for boundary box display in real time video 
-
+- Uses OpenCV for boundary box display in real time video
 
 ## Hardware Details
 
@@ -30,15 +24,15 @@ By deploying this innovative solution, we aim to significantly enhance our capac
 - PI detects and sends a HTTP GET request to ESP32 Microcontroller with Image link and Number as parameter
 - ESP32 sends AT commands to A9G Pudding which then gets the GPS data and then sends the message to the number with image and coordinates
 
-
 ## Steps for running the Fire inference Model
-- `pip3 install -r requirements.txt` 
+
+- `pip3 install -r requirements.txt`
 - `python3 AgniNetra.py`
 
-## Steps For Hardware 
+## Steps For Hardware
 
 <center>
-    <img src="./images/" width="300" height="300"/>
+    <img src="./images/Hardware_Components.png" width="300" height="300"/>
 </center>
 
 - The components should be connected according to schematics
@@ -51,7 +45,8 @@ const char* paSim800Lword = "Your Password";
 
 ## Screenshots
 
-![image](./images/)
-![image2](./images/)
-![image3](./images/)
-![image4](./images/)
+![image](./images/Fire_Detection.png)
+![image2](./images/Smoke_Detection.png)
+![image3](./images/Serial_Monitor.png)
+![image4](./images/Both_Fire_and_Smoke_Detection.png)
+![image4](./images/fire_rasbberry_%20camera.png)
