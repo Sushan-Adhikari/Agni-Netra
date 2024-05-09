@@ -4,12 +4,18 @@ Agni Netra
 
 ## Synopsis
 
-Ecological, Environmental, Economic Impact of Forest fire is the main motivation for the project. Majority of forest fires in Nepal are uncontrolled and have devastating impact. Although Nepal has seen impressive restoration of its forests, March and April have been threatening the progress of our restoration. According to [Nepal Economic Forum](https://nepaleconomicforum.org/what-is-flaring-nepals-issue-of-forest-fires/), 6279 forest fires were recorded in 2021. According to the 2021 Long-Term Climate Risk Index, Nepal ranked 10th globally, highlighting the worsening effects of forest fires due to increased hot and dry conditions.
+Our project `Agni-Netra` is driven by the urgent need to address the ecological, environmental, and economic impacts of forest fires, particularly in Nepal where these incidents often wreak havoc with devastating consequences. Despite commendable efforts in forest restoration, the months of March and April pose significant threats to our progress due to the rampant occurrence of uncontrolled fires. Shockingly, in 2021 alone, Nepal recorded a staggering 6279 forest fires, as reported by the Nepal Economic Forum.
 
-We propose a portable forest Fire detection device. Tldr, it is a computer vision model to detect forest fire and a hardware accelerated feedback system which: 
+Compounding this issue, Nepal ranks 10th globally in the 2021 Long-Term Climate Risk Index, underscoring the escalating danger posed by forest fires exacerbated by increasingly hot and dry conditions.
 
-- Uses real time inference using cameras and detects forest fire. 
-- Sends GPS coordinates, Forest fire images and alert feedbacks to the forest rangers or respective authorities. 
+To combat this pressing challenge, we propose the development of a portable forest fire detection device. In essence, it comprises a sophisticated computer vision model designed to swiftly detect forest fires, complemented by a hardware-accelerated feedback system. This system operates as follows:
+
+- Real-time Fire Detection: Utilizing cameras, our system employs real-time inference to swiftly identify the presence of forest fires, enhancing response times and minimizing damage.
+- Alert Mechanism: Upon detecting a fire, the device promptly sends crucial information including GPS coordinates and images of the fire to forest rangers or relevant authorities. This rapid dissemination of data enables swift and targeted intervention, potentially mitigating the severity of the fire.
+
+By deploying this innovative solution, we aim to significantly enhance our capacity to detect and respond to forest fires, ultimately safeguarding our precious natural resources and communities from the devastating impacts of these destructive events.
+
+
 
 
 ## AI Tools Details 
