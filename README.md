@@ -47,7 +47,7 @@ const char* paSim800Lword = "Your Password";
 
 ![image](./images/Fire_Detection.png)
 ![image2](./images/Smoke_Detection.png)
-![image2](./images/Message.png)
+![image2](./images/Message.jpg)
 ![image3](./images/Serial_Monitor.png)
 ![image4](./images/Both_Fire_and_Smoke_Detection.png)
 ![image4](./images/fire_rasbberry_%20camera.png)
