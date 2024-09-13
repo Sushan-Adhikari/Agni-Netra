@@ -22,7 +22,8 @@ By deploying this innovative solution, we aim to significantly enhance our capac
 
 - Uses SBC like Raspberry PI for real time forest detection
 - PI detects and sends a HTTP GET request to ESP32 Microcontroller with Image link and Number as parameter
-- ESP32 sends AT commands to A9G Pudding which then gets the GPS data and then sends the message to the number with image and coordinates
+- ESP32 sends AT commands to A9G Pudding(A9G GPRS GPS Development Board Core Module Wireless Data Transmission Antenna
+) which then gets the GPS data and then sends the message to the number with image and coordinates
 
 ## Steps for running the Fire inference Model
 
